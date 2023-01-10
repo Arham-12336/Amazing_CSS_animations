@@ -1,0 +1,9 @@
+.container{
+    background-image: url(./images/background.jpeg);
+}
+
+.text{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    mix-blend-mode: screen;
+}
