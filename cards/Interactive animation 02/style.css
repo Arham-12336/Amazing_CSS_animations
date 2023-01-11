@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    display: grid;
+    background-color: black;
+
+    place-items: center;
+
+}
+.card{
+    width: 150px;
+    height: 250px;
+    background: url(./images/sun.png) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    transform: rotate(20deg) skew(-10deg, -5deg);
+    transition: translate 0.25s , box-shadow 0.25s;
+}
+.card:hover{
+    translate: 0 -30px;
+    box-shadow: 
+    5px 30px rgb(217 270 242 / 75%),
+    10px 25px rgb(44 217 255 / 50%),
+    15px 19px rgb(126 255 178 / 25%) ;
+}
