@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+}
+
+.card{
+    border: .4rem solid black;
+    border-radius: .5rem;
+    letter-spacing: 0.3rem;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    background: black;
+    text-align: center;
+    transition: all .8s ease;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.7);
+    border: #ffc600;
+    background: #ffc600;
+    color: black;
+}
